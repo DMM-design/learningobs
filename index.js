@@ -40,7 +40,7 @@ export default class App{
 
     routes()
     {
-        this.app.get('/', async (req, res) => {});
+        this.app.get('/', async (req, res) => {res.json("Hello World")});
     }
 
     async Handlers()
