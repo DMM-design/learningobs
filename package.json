@@ -1,0 +1,21 @@
+{
+  "name": "learningobs",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "cors": "^2.8.5",
+    "events": "^3.3.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "obs-websocket-js": "^4.0.3",
+    "socket.io": "^4.3.1"
+  }
+}
